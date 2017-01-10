@@ -1,0 +1,11 @@
+出处：
+http://www.ibm.com/developerworks/cn/java/j-lo-velocity1/#toggle
+
+服务启动后客户端的访问方式为：
+http://127.0.0.1:8096/teacherAction!teacherList.action
+http://127.0.0.1:8096/studentAction!studentList.action
+
+
+VelocityGenerator类是个具有main函数的，可以独自执行。先执行生成Teacher相关的jsp代码。
+执行后便生成teacherAdd.jsp/teacherList.jsp/teacherModify.jsp文件
+在运行以上代码之后，项目文件夹中将会出现与 Teacher 相关的代码文件。
